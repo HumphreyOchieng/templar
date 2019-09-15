@@ -1,0 +1,19 @@
+// type faces
+$fontFamilySystem: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$fontFamilyHeader: $fontFamilySystem;
+$fontFamilyContent: $fontFamilySystem;
+
+// typescales
+$modular-scale-base: 16px;
+$modular-scale-ratio: 1.2;
+
+$fontSizeHeader: 22px;
+$fontSizeContent: 17px;
+
+// font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;

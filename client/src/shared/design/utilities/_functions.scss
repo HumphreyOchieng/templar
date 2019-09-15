@@ -1,0 +1,17 @@
+@function ms($increment) {
+	$base: $modular-scale-base;
+
+	@if $increment == 0 {
+		@return $base;
+	}
+
+	@for $i from 1 through $increment {
+		@if $increment > 0 {
+			$base: $base * $modular-scale-ratio;
+		} @else {
+			$base: $base / $modular-scale-ratio;
+		}
+	}
+
+	@return $base;
+}

@@ -1,0 +1,6 @@
+mutation captureEmail($email: String!) {
+	captureEmail(email:$email) {
+		id
+		email
+	}
+}

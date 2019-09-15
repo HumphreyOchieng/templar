@@ -1,0 +1,8 @@
+$inputBorderRadius: $border-radius !default;
+$inputColorActive: $color-success;
+$color-border-input: #aaa;
+
+:export {
+	borderRadius: $inputBorderRadius;
+	colorActive: $inputColorActive;
+}
